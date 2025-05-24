@@ -355,6 +355,8 @@ export default {
                 file: removedFile,
                 files: this.uploadedFiles
             });
+
+            this.uploadedFileCount--;
         },
         clearInputElement() {
             this.$refs.fileInput.value = '';
